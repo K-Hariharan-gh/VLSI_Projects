@@ -1,0 +1,58 @@
+$date
+	Wed Jul 15 19:21:09 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mux_8to1_tb $end
+$var wire 1 ! Y $end
+$var reg 8 " I [7:0] $end
+$var reg 3 # S [2:0] $end
+$scope module uut $end
+$var wire 8 $ I [7:0] $end
+$var wire 3 % S [2:0] $end
+$var reg 1 ! Y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 %
+b10110010 $
+b0 #
+b10110010 "
+0!
+$end
+#10000
+1!
+b1 #
+b1 %
+#20000
+0!
+b10 #
+b10 %
+#30000
+b11 #
+b11 %
+#40000
+1!
+b100 #
+b100 %
+#50000
+b101 #
+b101 %
+#60000
+0!
+b110 #
+b110 %
+#70000
+1!
+b111 #
+b111 %
+#80000

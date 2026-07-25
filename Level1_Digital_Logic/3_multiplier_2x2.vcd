@@ -1,0 +1,189 @@
+$date
+	Tue Jul 14 19:25:27 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module multiplier_2x2_tb $end
+$var wire 4 ! P [3:0] $end
+$var reg 2 " A [1:0] $end
+$var reg 2 # B [1:0] $end
+$var integer 32 $ i [31:0] $end
+$var integer 32 % j [31:0] $end
+$scope module uut $end
+$var wire 2 & A [1:0] $end
+$var wire 2 ' B [1:0] $end
+$var wire 1 ( pp0 $end
+$var wire 1 ) pp1 $end
+$var wire 1 * pp2 $end
+$var wire 1 + pp3 $end
+$var wire 1 , carry1 $end
+$var wire 4 - P [3:0] $end
+$scope module HA1 $end
+$var wire 1 ) A $end
+$var wire 1 * B $end
+$var wire 1 , CARRY $end
+$var wire 1 . SUM $end
+$upscope $end
+$scope module HA2 $end
+$var wire 1 + A $end
+$var wire 1 , B $end
+$var wire 1 / CARRY $end
+$var wire 1 0 SUM $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+00
+0/
+0.
+b0 -
+0,
+0+
+0*
+0)
+0(
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10000
+b1 #
+b1 '
+b1 %
+#20000
+b10 #
+b10 '
+b10 %
+#30000
+b11 #
+b11 '
+b11 %
+#40000
+b0 #
+b0 '
+b1 "
+b1 &
+b1 $
+b0 %
+#50000
+b1 !
+b1 -
+1(
+b1 #
+b1 '
+b1 %
+#60000
+1.
+b10 !
+b10 -
+0(
+1*
+b10 #
+b10 '
+b10 %
+#70000
+b11 !
+b11 -
+1(
+b11 #
+b11 '
+b11 %
+#80000
+0.
+b0 !
+b0 -
+0(
+0*
+b0 #
+b0 '
+b10 "
+b10 &
+b10 $
+b0 %
+#90000
+b10 !
+b10 -
+1.
+1)
+b1 #
+b1 '
+b1 %
+#100000
+0.
+b100 !
+b100 -
+10
+0)
+1+
+b10 #
+b10 '
+b10 %
+#110000
+b110 !
+b110 -
+1.
+1)
+b11 #
+b11 '
+b11 %
+#120000
+0.
+b0 !
+b0 -
+00
+0)
+0+
+b0 #
+b0 '
+b11 "
+b11 &
+b11 $
+b0 %
+#130000
+1.
+b11 !
+b11 -
+1(
+1)
+b1 #
+b1 '
+b1 %
+#140000
+10
+b110 !
+b110 -
+0(
+0)
+1*
+1+
+b10 #
+b10 '
+b10 %
+#150000
+00
+1/
+0.
+1,
+b1001 !
+b1001 -
+1(
+1)
+b11 #
+b11 '
+b11 %
+#160000
+b100 $
+b100 %
