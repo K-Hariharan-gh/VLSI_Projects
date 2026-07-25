@@ -1,0 +1,235 @@
+$date
+	Sat Jul 25 12:08:08 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module uart_loop_tb $end
+$var wire 1 ! tx $end
+$var wire 8 " rx_data [7:0] $end
+$var wire 1 # data_ready $end
+$var reg 1 $ clk $end
+$var reg 1 % reset $end
+$var reg 1 & start $end
+$var reg 8 ' tx_data [7:0] $end
+$scope module receiver $end
+$var wire 1 $ clk $end
+$var wire 1 % reset $end
+$var wire 1 ! rx $end
+$var parameter 2 ( DATA $end
+$var parameter 2 ) IDLE $end
+$var parameter 2 * START $end
+$var parameter 2 + STOP $end
+$var reg 3 , bit_index [2:0] $end
+$var reg 8 - data_out [7:0] $end
+$var reg 1 # data_ready $end
+$var reg 8 . shift_reg [7:0] $end
+$var reg 2 / state [1:0] $end
+$upscope $end
+$scope module transmitter $end
+$var wire 1 $ clk $end
+$var wire 8 0 data_in [7:0] $end
+$var wire 1 % reset $end
+$var wire 1 & start $end
+$var parameter 2 1 DATA $end
+$var parameter 2 2 IDLE $end
+$var parameter 2 3 START $end
+$var parameter 2 4 STOP $end
+$var reg 3 5 bit_index [2:0] $end
+$var reg 1 6 busy $end
+$var reg 8 7 shift_reg [7:0] $end
+$var reg 2 8 state [1:0] $end
+$var reg 1 ! tx $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 4
+b1 3
+b0 2
+b10 1
+b11 +
+b1 *
+b0 )
+b10 (
+$end
+#0
+$dumpvars
+b0 8
+bx 7
+06
+b0 5
+b10101010 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b10101010 '
+0&
+1%
+0$
+0#
+b0 "
+1!
+$end
+#5000
+1$
+#10000
+0$
+0%
+#15000
+1$
+#20000
+0$
+1&
+#25000
+b1 8
+16
+b10101010 7
+1$
+#30000
+0$
+0&
+#35000
+b10 8
+0!
+1$
+#40000
+0$
+#45000
+b1 /
+b1 5
+1$
+#50000
+0$
+#55000
+b10 5
+1!
+b10 /
+1$
+#60000
+0$
+#65000
+b1 ,
+b1 .
+b11 5
+0!
+1$
+#70000
+0$
+#75000
+b100 5
+1!
+b10 ,
+1$
+#80000
+0$
+#85000
+b11 ,
+b101 .
+b101 5
+0!
+1$
+#90000
+0$
+#95000
+b110 5
+1!
+b100 ,
+1$
+#100000
+0$
+#105000
+b101 ,
+b10101 .
+b111 5
+0!
+1$
+#110000
+0$
+#115000
+b11 8
+1!
+b110 ,
+1$
+#120000
+0$
+#125000
+b111 ,
+b1010101 .
+b0 8
+06
+1$
+#130000
+0$
+#135000
+b11 /
+b11010101 .
+1$
+#140000
+0$
+#145000
+b0 /
+1#
+b11010101 "
+b11010101 -
+1$
+#150000
+0$
+#155000
+0#
+1$
+#160000
+0$
+#165000
+1$
+#170000
+0$
+#175000
+1$
+#180000
+0$
+#185000
+1$
+#190000
+0$
+#195000
+1$
+#200000
+0$
+#205000
+1$
+#210000
+0$
+#215000
+1$
+#220000
+0$
+#225000
+1$
+#230000
+0$
+#235000
+1$
+#240000
+0$
+#245000
+1$
+#250000
+0$
+#255000
+1$
+#260000
+0$
+#265000
+1$
+#270000
+0$
+#275000
+1$
+#280000
+0$
